@@ -41,11 +41,11 @@
 	 margin-right: 10px;
 	 margin-left: 10px;
 	 color: rgb(255, 224, 0);
-	 border-weight: 500px;
-     	 border-color: rgb(255, 224, 0);
+	 border: 10px solid rgb(255, 224, 0);
     }
     .btn-primary:hover {
-	background-color: black;
-		border: 5px solid white;
+	background-color: rgb(255, 224, 0);
+	color: rgb(51, 156, 94);
+	border: 10px solid rgb(51, 156, 94);
 	}
-	}
+     }
