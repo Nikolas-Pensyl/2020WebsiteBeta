@@ -20,7 +20,8 @@
 	 }
     }
 
-    .navbar{
+    .bg-dark{
+	animation: movebtn 4s ease;
     	background-color: rgba(51, 156, 94, .5);
     	border-color: rgba(51, 156, 94, .1);
     }
