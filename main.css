@@ -20,7 +20,7 @@
 	 }
     }
 
-    .navbar-dark .navbar-toggler {
+    .navbar{
     	color: rgba(51, 156, 94, .5);
     	border-color: rgba(51, 156, 94, .1);
     }
