@@ -58,7 +58,8 @@
     margin-top: 100px;
     position: relative;
         overflow: hidden;
-	    height: 350px;
+	    height: auto;
+	    width: auto;
 	    background: no-repeat center center scroll;
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
