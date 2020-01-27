@@ -47,8 +47,8 @@
 	    
     .btn-primary{
      background-color: rgb(51, 156, 94);
-	 margin-right: 10px;
-	 margin-left: 10px;
+	 margin-right: 1%
+	 margin-left: 1%;
 	 color: rgb(255, 224, 0);
 	 border: 5px solid rgb(255, 224, 0);
     }
