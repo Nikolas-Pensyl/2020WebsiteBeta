@@ -21,7 +21,6 @@
     }
 
     .custom-color{
-	animation: movebtn 4s ease;
     	background-color: rgb(51, 156, 94);
     }
 	    
@@ -49,12 +48,12 @@
 	 margin-right: 1%;
 	 margin-left: 1%;
 	 color: rgb(255, 224, 0);
-	 border: 5px solid rgb(255, 224, 0);
+	 border: 3px solid rgb(255, 224, 0);
     }
     .btn-primary:hover {
 	background-color: rgb(255, 224, 0);
 	color: rgb(51, 156, 94);
-	border: 5px solid rgb(51, 156, 94);
+	border: 3px solid rgb(255, 224, 0);
 	}
 	h1{
 		color: red;
