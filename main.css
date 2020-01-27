@@ -37,10 +37,12 @@
 	}
     }
     
-    .justify-content-center {
-    	position: absolute;
-    	margin: 20px;
-    	width: auto;
+    .posk {
+     z-index: 100;
+    	position: fixed;
+    	over-flow
+    	top: 0;
+    	width: 100%;
     }
 	    
     .btn-primary{
@@ -60,7 +62,7 @@
 	}
 	
 	.carousel{
-    position: relative;
+    position: absolute;
         overflow: hidden;
 	    height: auto;
 	    width: auto;
