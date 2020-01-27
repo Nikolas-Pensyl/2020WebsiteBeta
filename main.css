@@ -35,7 +35,13 @@
 		left: 0px;
 		top: 0px;
 	}
-    }    
+    }
+    
+    .justify-content-center {
+    	position: absolute;
+    	margin: 20px;
+    	width: auto;
+    }
 	    
     .btn-primary{
      background-color: rgb(51, 156, 94);
@@ -54,8 +60,6 @@
 	}
 	
 	.carousel{
-	margin: 0 auto;
-    margin-top: 100px;
     position: relative;
         overflow: hidden;
 	    height: auto;
