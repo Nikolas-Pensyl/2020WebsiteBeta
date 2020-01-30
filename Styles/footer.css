@@ -1,0 +1,32 @@
+footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    border-top: 1px solid lightgreen;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+.footer-notes {
+    font-size: small;
+    text-decoration: none;
+    color: #339c5e;
+}
+
+.social-icon:hover {
+    background-color: #339c5e;
+}
+
+.social-icon {
+    height: 2em;
+    width: 2em;
+}
+
+.rainbow-icon {
+    height:2em;
+    width: 2em;
+}

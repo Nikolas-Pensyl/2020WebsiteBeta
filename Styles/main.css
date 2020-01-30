@@ -1,0 +1,74 @@
+    body {
+    	background: linear-gradient(rgb(51, 156, 94), rgb(51, 156, 94), rgb(255, 224, 0),rgb(51, 156, 94), rgb(51, 156, 94), rgb(255, 224, 0), rgb(255, 224, 0));
+    	background-size: 300% 300%;
+    	animation: gradient 15s ease infinite;
+    }
+
+    @keyframes gradient {
+    	0% {
+    		background-size: 300% 300%;
+    		background-position: 0% 0%;
+    	}
+    	50% {
+	    background-size: 300% 300%;
+	    background-position: 60% 60%;
+	}
+
+	100% {
+	   background-size: 300% 300%;
+	   background-position: 0% 0%;
+	 }
+    }
+
+    .custom-color{
+    	background-color: rgb(51, 156, 94);
+    }
+	    
+    @keyframes movebtn {
+    	0%{ 
+		left: 0px;
+		top: 1200px;
+	}
+	100%{
+		left: 0px;
+		top: 0px;
+	}
+    }
+    
+    .posk {
+     z-index: 100;
+    	position: fixed;
+    	overflow: hidden;
+    	top: 0;
+    	width: 100%;
+    }
+	    
+    .btn-primary{
+     background-color: rgb(51, 156, 94);
+	 margin-right: 1%;
+	 margin-left: 1%;
+	 color: rgb(255, 224, 0);
+	 border: 3px solid rgb(255, 224, 0);
+    }
+    .btn-primary:hover {
+	background-color: rgb(255, 224, 0);
+	color: rgb(51, 156, 94);
+	border: 3px solid rgb(255, 224, 0);
+	}
+	h1{
+		color: red;
+	}
+	
+	.carousel{
+	position: relative;
+        overflow: hidden;
+	    height: auto;
+	    width: auto;
+	    background: no-repeat center center scroll;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	    margin-right: 15%;
+	    margin-left: 15%;
+}
