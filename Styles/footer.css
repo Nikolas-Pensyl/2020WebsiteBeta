@@ -1,6 +1,6 @@
 footer {
     position: fixed;
-    left: 0; bottom: 0;
+    left: 0; bottom: 0;                                             /*again see that top comment*/
     border-top: 1px solid lightgreen;
     text-align: center;
     position: relative;
@@ -29,4 +29,8 @@ footer {
 .rainbow-icon {
     height:2em;
     width: 2em;
+}
+
+.rainbow-icon:hover {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }

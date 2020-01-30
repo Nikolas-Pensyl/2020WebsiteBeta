@@ -59,7 +59,7 @@
 		color: red;
 	}
 	
-	.carousel{
+     .carousel{
 	position: relative;
         overflow: hidden;
 	    height: auto;
@@ -71,4 +71,12 @@
 	    background-size: cover;
 	    margin-right: 15%;
 	    margin-left: 15%;
+}
+
+.carousel-indicators .active {
+	height: 3 !important;
+}
+
+.carousel-indicators {
+	height: 3 !important;
 }
