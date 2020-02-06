@@ -54,10 +54,6 @@ header {
       transition: all ease-in-out 250ms;
     }
     
-.navbar-fixed-top {
-        height: 25px; /* Whatever you want. */
-}
-    
     nav a:hover::before {
       width: 100%;
   }
