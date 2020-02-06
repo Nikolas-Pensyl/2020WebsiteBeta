@@ -53,6 +53,9 @@ header {
     
       transition: all ease-in-out 250ms;
     }
+    .navbar-collapse.collapse.in {
+    	display: block!important;
+    }
     
     nav a:hover::before {
       width: 100%;
