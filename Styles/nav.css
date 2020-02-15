@@ -57,3 +57,7 @@
 .bg-dark {
     background-color: #339C5E!important;
 }
+
+body > div > header > nav > button > div > ul > li {
+  box-sizing: content-box;
+}
