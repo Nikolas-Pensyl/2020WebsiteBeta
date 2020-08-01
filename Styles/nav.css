@@ -19,7 +19,7 @@
   nav li {
       display: inline-block;
       margin-left: 70px;
-      padding-top: 22px;
+      padding-top: 5px;
     
       position: relative;
     }
@@ -65,7 +65,7 @@
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: .3rem 1rem;
+    padding: .1rem 1rem;
 }
 
 .bg-dark {
